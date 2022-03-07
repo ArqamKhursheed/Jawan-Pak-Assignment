@@ -1,1 +1,45 @@
-My name is arqam khurseed
+void main() {
+  int maths=33;
+  int physics=34;
+  int english=35;
+  int islamiat=33;
+  int urdu=40;
+  
+  int totalMarks=500;
+  
+  
+  print("Subject  Marks   ObtainedMarks  ");
+  print("Maths    100     $maths ");
+  print("Physics  100     $physics ");
+  print("English  100     $english ");
+  print("Islamiat 100     $islamiat ");
+  print("Urdu     100     $urdu ");
+  
+  int totalobtained=maths+physics+english+islamiat+urdu;
+  double percentage= totalobtained/totalMarks*100;
+  
+  print("total % of Student is $percentage");
+  
+  if (percentage > 90){
+    print("Grade: A1");}
+else if (percentage >= 80 && percentage < 90){
+    print("Grade: A+");}
+else if (percentage >= 70 && percentage < 80){
+    print("Grade: A");}
+else if( percentage >= 60 && percentage < 70){
+    print("Grade: B+");}
+else if (percentage >= 50 && percentage < 60){
+    print("Grade: B");}
+else if (percentage >= 40 && percentage < 50){
+    print("Grade: C");}
+else;
+  {
+    print("Grade: F");
+  }
+  
+  print("\n\nAssignment No.2 by Arqam Khursheed");
+  
+  
+  
+    
+}
